@@ -22,17 +22,10 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
   avrut,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
