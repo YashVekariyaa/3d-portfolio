@@ -46,6 +46,7 @@ const Contact = () => {
           from_email: form.email,
           to_email: config.html.email,
           message: form.message,
+          publicKey: emailjsConfig.accessToken
         },
         emailjsConfig.accessToken
       )
