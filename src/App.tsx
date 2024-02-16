@@ -12,6 +12,7 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
   useEffect(() => {
@@ -23,6 +24,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="bg-primary relative z-0">
+        <Cursor/>
         <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
           <Navbar />
           <Hero />

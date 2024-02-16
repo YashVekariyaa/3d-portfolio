@@ -9,8 +9,6 @@ import type {
 
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -49,16 +47,8 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Designer",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
